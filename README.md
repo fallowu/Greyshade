@@ -20,8 +20,8 @@
 在命令行中使用以下命令安装：
 	
 	$ cd octopress
-	$ git clone git@github.com:qxxqxx/greyshade.git .themes/greyshade
-	$ echo "\$greyshade: color;" >> sass/custom/_colors.scss //Substitue 'color' with your highlight color
+	$ git clone git@github.com:qxxqxx/Greyshade.git .themes/greyshade
+	$ echo "\$greyshade: color;" >> sass/custom/_colors.scss
 	$ rake "install[greyshade]"
 	$ rake generate
 
@@ -46,8 +46,8 @@ Just add following two value in your `_config.yml`
 Type the code below in terminal.
 
 	$ cd octopress
-	$ git clone git@github.com:qxxqxx/greyshade.git .themes/greyshade
-	$ echo "\$greyshade: color;" >> sass/custom/_colors.scss //Substitue 'color' with your highlight color
+	$ git clone git@github.com:qxxqxx/Greyshade.git .themes/greyshade
+	$ echo "\$greyshade: color;" >> sass/custom/_colors.scss
 	$ rake "install[greyshade]"
 	$ rake generate
 
