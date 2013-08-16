@@ -1,37 +1,61 @@
-#Greyshade
+#中文
 
-Greyshade is a minimal, responsive theme for Octopress.
-Starting point forked from [Slash](https://github.com/tommy351/Octopress-Theme-Slash)  
+##更新内容
 
-[Demo](http://shashankmehta.in/archive/2012/greyshade.html)
+增加了新浪微博,Instagram 和 Dribbble 连接的支持
 
-![mobile view](https://dl.dropbox.com/u/6396581/greyshade/1.png)
+[演示](http://qxxqxx.github.io)
 
-![Desktop view](https://dl.dropbox.com/u/6396581/greyshade/2.png)
+![图片](http://qxxqxx.github.io/source/images/view.png)
+##设置方法
 
-##Features
+编辑你的 `_config.yml`，加入以下两行
 
-1. Responsive design.
-1. Fancybox integration
-1. Gravatar support thanks to [Zhigang Fang](https://github.com/zhigang1992). Add your email id to `_config.yml` and your profile picture will appear in the left nav. 
-1. [Schema.org](http://schema.org/) support thanks to [Nathan Shaughnessy](https://github.com/nathanshox)
+    weibo_user: qzoro # 注：新浪微博自定义网址中用户名部分或数字 ID  http://weibo.com/(此部分内容)
+    dribbble_user: #填写Dribbble用户名
+    instagram_user: qxxqxx #填写Instagram用户名
 
-##Conditions 
+##安装方法
 
-The only condition to use this theme for your octopress blog is that you have to set a different highlight color than the ones mentioned [here](https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade). When you have chosen a highlight color, please add it to the [wiki](https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade) so that no one else uses it.
+在命令行中使用以下命令安装：
+	
+	$ cd octopress
+	$ git clone git@github.com:qxxqxx/greyshade.git .themes/greyshade
+	$ echo "\$greyshade: color;" >> sass/custom/_colors.scss //Substitue 'color' with your highlight color
+	$ rake "install[greyshade]"
+	$ rake generate
 
-Highlight color: This color is used on a:hover, blockquotes etc. I'll be using it in more places so that blogs with different highlight colors look slightly different and maintain a bit of their uniqueness. 
+#English
+
+##Updates
+
+I've added support for Weibo,Instagram and Dribbble in social links part.
+
+[Demo](http://qxxqxx.github.io)
+
+##Configuration
+
+Just add following two value in your `_config.yml`
+
+    weibo_user: qzoro # Your weibo id            http://weibo.com/(THIS PART)
+    dribbble_user: #Your Dribbble user name
+    instagram_user: qxxqxx #Your Instagram user name
 
 ##Install
 
-Assuming you have installed the default theme, type the code below in terminal.
+Type the code below in terminal.
 
-    $ git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade
-    $ echo "\$greyshade: color;" >> sass/custom/_colors.scss //Substitue 'color' with your highlight color
-    $ rake "install[greyshade]"
-    $ rake generate
+	$ cd octopress
+	$ git clone git@github.com:allenhsu/greyshade.git .themes/greyshade
+	$ echo "\$greyshade: color;" >> sass/custom/_colors.scss //Substitue 'color' with your highlight color
+	$ rake "install[greyshade]"
+	$ rake generate
 
-For profile picture and description, just add the relevant details in `_config.yml`
+##Greyshade
+
+[Greyshade](https://github.com/shashankmehta/greyshade) is a minimal, responsive theme for Octopress. From [Shashank Mehta](https://github.com/shashankmehta), based on [Slash](https://github.com/tommy351/Octopress-Theme-Slash)  
+
+[Demo](http://shashankmehta.in/archive/2012/greyshade.html)
   
 ##License
 
