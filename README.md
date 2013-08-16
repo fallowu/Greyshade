@@ -4,9 +4,9 @@
 
 增加了新浪微博,Instagram 和 Dribbble 连接的支持
 
-[演示](http://qxxqxx.github.io)
+[演示](http://qxxqxx.github.io/blog/greyshade-qiuyin/)
 
-![图片](http://qxxqxx.github.io/source/images/view.png)
+
 ##设置方法
 
 编辑你的 `_config.yml`，加入以下两行
@@ -31,7 +31,7 @@
 
 I've added support for Weibo,Instagram and Dribbble in social links part.
 
-[Demo](http://qxxqxx.github.io)
+[Demo](http://qxxqxx.github.io/blog/greyshade-qiuyin/)
 
 ##Configuration
 
@@ -46,7 +46,7 @@ Just add following two value in your `_config.yml`
 Type the code below in terminal.
 
 	$ cd octopress
-	$ git clone git@github.com:allenhsu/greyshade.git .themes/greyshade
+	$ git clone git@github.com:qxxqxx/greyshade.git .themes/greyshade
 	$ echo "\$greyshade: color;" >> sass/custom/_colors.scss //Substitue 'color' with your highlight color
 	$ rake "install[greyshade]"
 	$ rake generate
