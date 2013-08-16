@@ -5,7 +5,7 @@
 增加了新浪微博,Instagram 和 Dribbble 连接的支持
 
 [演示](http://qxxqxx.github.io/blog/greyshade-qiuyin/)
-
+![图片](http://qxxqxx.github.io/images/view.png)
 
 ##设置方法
 
